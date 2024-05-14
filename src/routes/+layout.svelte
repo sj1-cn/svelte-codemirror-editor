@@ -7,9 +7,6 @@
     const nav = [
         { path: `${base}`, text: "Configurator" },
         { path: `${base}/javascript`, text: "Javascript" },
-        { path: `${base}/typescript`, text: "Typescript" },
-        { path: `${base}/html`, text: "HTML" },
-        { path: `${base}/css`, text: "CSS" },
     ];
 </script>
 
