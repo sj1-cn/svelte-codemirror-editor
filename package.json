@@ -42,7 +42,8 @@
     "svelte": "^3.0.0 || ^4.0.0"
   },
   "devDependencies": {
-    "@sj1/lang-javascript": "6.2.3",
+    "@sj1/lezer-javascript": "1.4.22",
+    "@sj1/lang-javascript": "6.2.10",
     "@codemirror/theme-one-dark": "^6.0.0",
     "@codemirror/view": "^6.0.0",
     "@codemirror/state": "^6.0.0",

@@ -1,9 +1,7 @@
 <script lang="ts">
     import CodeMirror from "$lib";
 
-    import { css } from "@codemirror/lang-css";
-    import { html } from "@codemirror/lang-html";
-    import { javascript } from "@codemirror/lang-javascript";
+    import { javascript } from "@sj1/lang-javascript";
     import { oneDark } from "@codemirror/theme-one-dark";
 
     import { cssValue, htmlValue, javascriptValue, typescriptValue } from "./_util/code";

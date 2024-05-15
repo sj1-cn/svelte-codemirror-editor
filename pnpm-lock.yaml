@@ -39,8 +39,11 @@ importers:
         specifier: ^11.0.1
         version: 11.0.3(semantic-release@22.0.12(typescript@5.4.5))
       '@sj1/lang-javascript':
-        specifier: 6.2.3
-        version: 6.2.3
+        specifier: 6.2.10
+        version: 6.2.10
+      '@sj1/lezer-javascript':
+        specifier: 1.4.22
+        version: 1.4.22
       '@sveltejs/adapter-static':
         specifier: ^2.0.3
         version: 2.0.3(@sveltejs/kit@1.30.4(svelte@4.2.17)(vite@4.5.3))
@@ -469,11 +472,11 @@ packages:
     resolution: {integrity: sha512-LtoMMhxAlorcGhmFYI+LhPgbPZCkgP6ra1YL604EeF6U98pLlQ3iWIGMdWSC+vWmPBWBNgmDBAhnAobLROJmwg==}
     engines: {node: '>=18'}
 
-  '@sj1/lang-javascript@6.2.3':
-    resolution: {integrity: sha512-AbMy9EwqL5+a9sOVDVbt+aRCsZfZKW3Ziq9joWySDWd8uhY0ZMB8nEHDbUj1x9SA7dl9kzHIpPGOUk3jMBr3CA==}
+  '@sj1/lang-javascript@6.2.10':
+    resolution: {integrity: sha512-6vi+/l0vpvA34/OsBJo3gp08jxTWDuTcFdSMyYxsdDmR8tmsHkgn2RsZ1FeE1AHLp7t5jSCwOEiLYjgRvE6Haw==}
 
-  '@sj1/lezer-javascript@1.4.16':
-    resolution: {integrity: sha512-tpSlCSWt+60W6dqM0uLLLYlwCexegvnt6drq+Qwyfg4Of3Cgpjvse/y6kfDU3mv7LM3PBJo6pgWRGcePykrmZQ==}
+  '@sj1/lezer-javascript@1.4.22':
+    resolution: {integrity: sha512-MJPuJPQQ+nzmaIKwGUFt3UiU1CtGTgS+w9eiJvbenUZqq6R03MZVncIEs3XmTpRA0f5QDc7W0E27fJncOdICaQ==}
 
   '@sveltejs/adapter-static@2.0.3':
     resolution: {integrity: sha512-VUqTfXsxYGugCpMqQv1U0LIdbR3S5nBkMMDmpjGVJyM6Q2jHVMFtdWJCkeHMySc6mZxJ+0eZK3T7IgmUCDrcUQ==}
@@ -1416,6 +1419,9 @@ packages:
   issue-parser@6.0.0:
     resolution: {integrity: sha512-zKa/Dxq2lGsBIXQ7CUZWTHfvxPC2ej0KfO7fIPqLlHB9J2hJ7rGhZ5rilhuufylr4RXYPzJUeFjKxz305OsNlA==}
     engines: {node: '>=10.13'}
+
+  ist@1.1.7:
+    resolution: {integrity: sha512-ex9JyqY+tCjBlxN1pXlqxEgtGGUGp1TG83ll1xpu8SfPgOhfAhEGCuepNHlB+d7Le+hLoBcfCu/G0ZQaFbi9hA==}
 
   java-properties@1.0.2:
     resolution: {integrity: sha512-qjdpeo2yKlYTH7nFdK0vbZWuTCesk4o63v5iVOlhMQPfuIZQfW/HI35SjfhA+4qpg36rnFSvUK5b1m+ckIblQQ==}
@@ -2844,7 +2850,7 @@ snapshots:
 
   '@sindresorhus/merge-streams@2.3.0': {}
 
-  '@sj1/lang-javascript@6.2.3':
+  '@sj1/lang-javascript@6.2.10':
     dependencies:
       '@codemirror/autocomplete': 6.16.0(@codemirror/language@6.10.1)(@codemirror/state@6.4.1)(@codemirror/view@6.26.3)(@lezer/common@1.2.1)
       '@codemirror/language': 6.10.1
@@ -2852,9 +2858,10 @@ snapshots:
       '@codemirror/state': 6.4.1
       '@codemirror/view': 6.26.3
       '@lezer/common': 1.2.1
-      '@sj1/lezer-javascript': 1.4.16
+      '@sj1/lezer-javascript': 1.4.22
+      ist: 1.1.7
 
-  '@sj1/lezer-javascript@1.4.16':
+  '@sj1/lezer-javascript@1.4.22':
     dependencies:
       '@lezer/common': 1.2.1
       '@lezer/highlight': 1.2.0
@@ -3985,6 +3992,8 @@ snapshots:
       lodash.isplainobject: 4.0.6
       lodash.isstring: 4.0.1
       lodash.uniqby: 4.7.0
+
+  ist@1.1.7: {}
 
   java-properties@1.0.2: {}
 
